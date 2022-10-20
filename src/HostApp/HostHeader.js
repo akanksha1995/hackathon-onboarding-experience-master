@@ -1,5 +1,4 @@
-// import logo from "../../public/Points_RGB_White";
-import "./HostHeder.css";
+import "./HostHeader.css";
 
 const HostHeader = () => {
     return (
@@ -13,4 +12,4 @@ const HostHeader = () => {
     )
 }
 
-export default HostHeader
+export default HostHeader;

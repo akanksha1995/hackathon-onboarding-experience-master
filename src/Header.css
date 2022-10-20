@@ -1,0 +1,20 @@
+.header {
+    background-color: #4DC9EE;
+    height: 62px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+img {
+    width: 46px;
+    height: 26px;
+    margin: 10px
+}
+
+.header-headers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px
+}

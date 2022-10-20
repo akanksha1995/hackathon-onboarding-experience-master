@@ -1,6 +1,7 @@
+import Main from "./Player Components/Main"
 const Player = () => {
     return (
-        <h1>Player App</h1>
+        <Main/>
     )
 }
 

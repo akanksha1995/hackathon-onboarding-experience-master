@@ -12,6 +12,7 @@
     background-size: contain;
     margin: 20px 10px;
     width: auto;
+    text-align: start;
 }
 
 .onbarding-card-heading {

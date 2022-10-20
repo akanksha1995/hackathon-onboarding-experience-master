@@ -4,7 +4,7 @@ import "./OnboardingCard.css";
 const OnboardingCard = (props) => {
     return (
         <div className="onboarding-card" style={{ backgroundImage: "url('/card-background.png')"}}>
-            <h4 className="onbarding-card-heading">Welcome to All Aboard</h4>
+            <h4 className="onbarding-card-heading">Welcome to All Aboard!</h4>
             <hr/>
             {props.children}
             <img className="logo" src="/Points_RGB_tagline_R.png"/>
