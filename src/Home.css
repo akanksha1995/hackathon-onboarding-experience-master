@@ -1,0 +1,13 @@
+.home {
+    text-align: center;
+}
+
+.home-login-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px
+}
