@@ -1,0 +1,1 @@
+export const playersList = ['Felicia Day', 'Salvador Dali'];

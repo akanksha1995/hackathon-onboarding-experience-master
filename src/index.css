@@ -21,18 +21,100 @@ html {
 #root {
   height: 100%;
 }
+
+.WelcomeCard { }
 .PlayerContent{display:flex; flex-direction:row;}
 
-.PlayerContent{box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25); border-radius: 6px;}
+.PlayerContent {
+  display: flex;
+  flex-direction: row;
+}
 
-.HeaderBox{display:flex; flex-direction:row;}
+.PlayerContent {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
 
-.PlayerTaskBars{display:flex; flex-direction:row;}
+.HeaderBox {
+  display: flex;
+  flex-direction: row;
+}
 
-.Task{display:flex; flex-direction:row;}
+.PlayerTaskBars {
+  display: flex;
+  flex-direction: row;
+}
 
-.LeaveButton {
-  position: absolute;
+.Task {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeaveButtonDiv {
+  position: fixed;
   bottom : 0;
   left : 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.LeaveButton{  
+  position: fixed;
+  bottom : 0;
+  left : 0;
+  width: 100%;}
+
+
+.player-status-card {
+  margin: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.TriviaBox{
+  display: flex;
+  flex-direction: row;
+}
+
+.Circle {
+  display: flex;
+  width: 16.98px;
+  height: 16.98px;
+  background-color: #EEEEEE;
+  border-radius: 50%;
+  margin-top: 17.5px;
+  margin-left: auto; 
+  margin-right: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.CompleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CircleBlue {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  background-color: #4DC9EE;
+  border-radius: 50%;
+}
+
+.CircleRed {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  background-color: #FF005C;
+  border-radius: 50%;
+}
+
+.CorrectBox {
+  text-align: center;
+}
+
+.IncorrectBox {
+  text-align: center;
 }

@@ -12,7 +12,7 @@ const Home = () => {
             <OnboardingCardHome />
             <div className="home-login-buttons">
                 <Link to="host" className="host-link">HOST</Link>
-                <Link to="player" className="player-link">PLAYER</Link>
+                <Link to="welcome" className="player-link">PLAYER</Link>
             </div>
         </div>
     )

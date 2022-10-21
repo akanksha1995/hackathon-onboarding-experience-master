@@ -1,12 +1,12 @@
 import React from 'react'
 import Task from './Task'
+import { v4 as uuid } from 'uuid';
 
-
-
-export const Tasks = ({  AllTasks  }) => {
+export const Tasks = ({  AllTasks, setOpenTask, setcurrTask  }) => {
     return (
+
         AllTasks.map(task => {
-            return <Task key={task.Title} task={task}> </Task>
+            return <Task key={uuid()} task={task} setOpenTask={setOpenTask} setcurrTask={setcurrTask}> </Task>
         })
     )
 }
