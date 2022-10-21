@@ -5,7 +5,6 @@ import Player from "../Player Components/Player.js";
 import { AllTasks } from "../AllTasks.js";
 
 const GameStatusScreen = ({userList}) => {
-    console.log("userList", userList);
 
     return (
         <div className="invite-players-screen">

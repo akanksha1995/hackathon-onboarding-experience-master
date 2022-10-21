@@ -35,6 +35,7 @@ export const FullTask = ({  task , setOpenTask}) => {
                         height: 240,
                         width: 320,
                       }}
+                    facingMode = "rear"
                     onError={(result) => {console.log(result)}}
                     onScan={(data) => {setData(data);<h3>data.text</h3>;}}
                     />

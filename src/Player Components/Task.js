@@ -21,7 +21,7 @@ export const Task = ({  task, setOpenTask, setcurrTask }) => {
                 <div style = {{marginLeft : "84px"}} className="CompleteButton">
                     <Button onClick={() => {setOpenTask(true); setcurrTask(task);}}
                     sx = {{width : "75px", height : "34px" , fontSize : 9, position : "relative"}} variant="contained" disabled={task.completed} >
-                        {task.completed ? "Completed" : "Incompleted"}
+                        {task.completed ? "Complete" : "Incomplete"}
                     </Button>
                 </div>
             </CardContent>
